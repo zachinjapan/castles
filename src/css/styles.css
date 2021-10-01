@@ -171,6 +171,7 @@ h4,
 
 .dropdown-menu li a:hover {
     background-color: red !important;
+    color: black;
 }
 
 a:hover {
@@ -206,9 +207,6 @@ div.row {
     justify-content: center;
 }
 
-.thumbtack-img {
-    background-image: url("/src/images/thumbtack.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-origin: border-box;
+.thumbtack-icon {
+    max-width: 100%;
 }

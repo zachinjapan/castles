@@ -9,7 +9,7 @@ h4 {
     margin: 100px 10px 10px 10px;
     letter-spacing: 5px;
     font-size: 20px;
-    color: #111;
+    /* color: #111; */
     padding-bottom: 50px;
 }
 
@@ -23,6 +23,11 @@ a:hover {
 
 .container {
     padding: 20px 30px;
+}
+
+#contact {
+    background-color: rgb(80, 80, 80);
+    color: white;
 }
 
 .person {
@@ -176,7 +181,7 @@ a:hover {
 footer {
     background-color: #2d2d30;
     color: #f5f5f5;
-    padding: 32px;
+
 }
 
 footer a {
@@ -199,4 +204,11 @@ textarea {
 
 div.row {
     justify-content: center;
+}
+
+.thumbtack-img {
+    background-image: url("/src/images/thumbtack.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: border-box;
 }

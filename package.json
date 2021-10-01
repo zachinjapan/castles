@@ -1,0 +1,25 @@
+{
+  "name": "castles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "webpack": "webpack"
+  },
+  "author": "Zach Stone",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.56.0",
+    "webpack-cli": "^4.8.0",
+    "express": "^4.17.1"
+
+  },
+  "dependencies": {
+    "webpack": "^5.56.0",
+    "webpack-cli": "^4.8.0",
+    "express": "^4.17.1"
+  }
+}

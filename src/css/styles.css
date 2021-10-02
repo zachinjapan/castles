@@ -207,6 +207,31 @@ div.row {
     justify-content: center;
 }
 
+.box {
+    position: relative;
+
+}
+
+.box .text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 10%;
+    /* Adjust this value to move the positioned div up and down */
+    width: 100%;
+    opacity: 0.9;
+    /* Set the width of the positioned div */
+}
+
 .thumbtack-icon {
-    max-width: 100%;
+    max-width: 100%
+}
+
+/* reviews */
+
+.fa-star {
+    color: #ffc107;
 }

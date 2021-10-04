@@ -235,3 +235,37 @@ div.row {
 .fa-star {
     color: #ffc107;
 }
+
+.iframe {
+    min-height: 500px;
+    width: 100%;
+    background-color: 80, 80, 80;
+}
+
+.iframe h1 {
+    text-align: center;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.contact-links {
+    text-align: center;
+    height: 100%;
+}
+
+.contact-icons-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: space-around;
+}

@@ -44,7 +44,7 @@ form>textarea {
 }
 
 form>input[type="submit"] {
-    max-width: 20vw;
+    max-width: 25%;
     padding-left: 1%;
     padding-right: 1%;
     cursor: pointer;

@@ -14,6 +14,6 @@ app.listen(PORT, function () {
 })
 
 // dotenv 
-require("dotenv").config();
+// require("dotenv").config();
 
 // process.env.EMAIL

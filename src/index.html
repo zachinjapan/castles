@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/3cbe63e5a2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
@@ -173,19 +174,6 @@
         </div>
     </div>
 </div>
-<!-- booking section
-<div id="booking" class="container text-center ">
-    <h3 class="text-center"><strong>Booking</strong></h3>
-    <h3 class="text-center"><span class="glyphicon glyphicon-chevron-down"></span> Book a gig today using <span
-            class="glyphicon glyphicon-chevron-down"></span></h3>
-    <br>
-    <div class="box">
-        <h3 class="text"> <a
-                href="https://www.thumbtack.com/nj/freehold/djs/castles-in-sky/service/345485234253316097"><span
-                    style="color: rgb(194, 128, 4);">Thumbtack.com</span></a> </h3>
-        <img class="thumbtack-icon" src="./images/thumbtackicon.png" alt="">
-    </div>
-</div> -->
 
 
 <!-- Container (Contact Section) -->
@@ -206,10 +194,22 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-8">
-            <iframe class="iframe"
+        <div class="col-md-8 booking">
+            <!-- <iframe class="iframe"
                 src="https://docs.google.com/forms/d/e/1FAIpQLSd6EKQ8iIKZJ6FHQqW6fVR3AYQFKP5jLYxyGVEJctfY_vTjkw/viewform?embedded=true"
-                frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+
+            <form action="https://getform.io/f/87419951-492d-403d-b5c7-d2b5a9942f47" method="POST">
+                <div>
+                    <img src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/mail-letter-offer-256.png"
+                        alt="icon">
+                </div>
+                <input type="text" name="name" placeholder="Name (required)" required>
+                <input type="text" name="email" placeholder="Return address (required)" required>
+                <input type="text" name="message" placeholder="Tell us about your gig" required>
+                <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
+                <input type="submit" value="Send">
+            </form>
         </div>
     </div>
     <br>

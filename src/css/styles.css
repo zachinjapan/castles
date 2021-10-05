@@ -1,3 +1,5 @@
+@import url(contact_form.css);
+
 body {
     font: 400 15px/1.8 Lato, sans-serif;
     background-color: rgb(250, 249, 247);
@@ -230,6 +232,12 @@ div.row {
     max-width: 100%
 }
 
+.booking {
+    color: black;
+    background-color: white;
+}
+
+
 /* reviews */
 
 .fa-star {
@@ -268,4 +276,5 @@ div.row {
     flex-wrap: wrap;
     justify-content: space-evenly;
     justify-items: space-around;
+    margin-bottom: 50px;
 }

@@ -12,3 +12,8 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, function () {
     console.log("Server is a runnin on port " + PORT);
 })
+
+// dotenv 
+require("dotenv").config();
+
+// process.env.EMAIL

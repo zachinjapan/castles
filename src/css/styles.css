@@ -113,8 +113,8 @@ a:hover {
 .carousel-inner img {
     -webkit-filter: grayscale(90%);
     filter: grayscale(90%);
-    /* min-height: 80vh; */
-    max-height: 95vh;
+    min-height: 75vh;
+    max-height: 75vh;
     margin: auto;
 }
 
@@ -123,6 +123,11 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+    .carousel-inner img {
+        min-height: 50vh;
+        max-height: 50vh;
+    }
+
     .carousel-caption {
         display: none;
         /* Hide the carousel text when the screen is less than 600 pixels wide */

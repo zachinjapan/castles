@@ -124,8 +124,8 @@ a:hover {
 
 @media (max-width: 600px) {
     .carousel-inner img {
-        min-height: 50vh;
-        max-height: 50vh;
+        min-height: 40vh;
+        max-height: 40vh;
     }
 
     .carousel-caption {

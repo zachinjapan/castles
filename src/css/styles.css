@@ -1,4 +1,5 @@
 @import url(contact_form.css);
+@import url(reviews.css);
 
 /* elements */
 
@@ -134,6 +135,29 @@ a:hover {
     }
 }
 
+/* reviews teaser */
+.reviews-teaser {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    margin: auto;
+}
+
+a {
+    color: black;
+}
+
+.review-name {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.review {
+    margin: 10px;
+}
 
 /* band */
 

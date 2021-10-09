@@ -1,0 +1,320 @@
+@import url(contact_form.css);
+@import url(reviews.css);
+/* elements */
+body {
+  font: 400 15px/1.8 Lato, sans-serif;
+  background-color: #faf9f7;
+  color: black;
+}
+
+h3,
+h4 {
+  margin: 100px 10px 10px 10px;
+  letter-spacing: 5px;
+  font-size: 20px;
+  /* color: #111; */
+  padding-bottom: 50px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #ff1900;
+}
+
+.container {
+  padding: 20px 30px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: 0.2s;
+}
+
+.btn:hover,
+.btn:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+}
+
+/* navbar */
+.modal-header,
+.close {
+  background-color: #333;
+  color: #fff !important;
+  text-align: center;
+  font-size: 30px;
+}
+
+.modal-header,
+.modal-body {
+  padding: 40px 50px;
+}
+
+.nav-tabs li a {
+  color: #777;
+}
+
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+  color: #d5d5d5 !important;
+}
+
+.navbar-nav li a:hover {
+  background-color: white !important;
+  color: #ff1900 !important;
+}
+
+.navbar-nav li.active a {
+  color: red !important;
+  background-color: #29292c !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.open .dropdown-toggle {
+  color: #fff;
+  background-color: #555 !important;
+}
+
+.dropdown-menu li a {
+  background-color: #555;
+  color: white;
+}
+
+form {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 60px;
+  margin: 12px auto;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+form > div {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 0 20px;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  text-align: center;
+}
+
+form > div > img {
+  filter: invert(1);
+  width: 100px;
+}
+
+form > input,
+form > textarea {
+  padding: 12px;
+  margin: 12px auto;
+  border: 1px solid #ccc;
+  color: #ddd;
+  background-color: #222;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+
+form > textarea {
+  height: 100px;
+  resize: none;
+}
+
+form > input[type=submit] {
+  max-width: 25%;
+  padding-left: 1%;
+  padding-right: 1%;
+  cursor: pointer;
+  transition: 0.35s;
+}
+
+form > input[type=submit]:hover {
+  background-color: #555;
+}
+
+/* title*/
+.carousel-inner img {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);
+  min-height: 75vh;
+  max-height: 75vh;
+  margin: auto;
+}
+
+.carousel-caption h3 {
+  color: #fff !important;
+}
+
+@media (max-width: 600px) {
+  .carousel-inner img {
+    min-height: 40vh;
+    max-height: 40vh;
+  }
+
+  .carousel-caption {
+    display: none;
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+/* reviews teaser */
+.reviews-teaser {
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: center;
+  margin: auto;
+}
+
+a {
+  color: black;
+}
+
+.review-name {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.review {
+  margin: 10px;
+}
+
+/* band */
+.person {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  /* height: 80%; */
+}
+
+.person:hover {
+  border: 10px solid darkred;
+}
+
+/* contact */
+#contact {
+  background-color: #505050;
+  color: white;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+div.row {
+  justify-content: center;
+}
+
+.box {
+  position: relative;
+}
+
+.box .text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 10%;
+  /* Adjust this value to move the positioned div up and down */
+  width: 100%;
+  opacity: 0.9;
+  /* Set the width of the positioned div */
+}
+
+/* contact section */
+#contact {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* contact content */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.contact-links {
+  text-align: center;
+  height: 100%;
+}
+
+.contact-icons-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-items: space-around;
+  margin-bottom: 50px;
+}
+
+.booking {
+  color: black;
+  background-color: white;
+}
+
+.iframe {
+  min-height: 500px;
+  width: 100%;
+  background-color: 80, 80, 80;
+}
+
+.iframe h1 {
+  text-align: center;
+}
+
+/* reviews */
+.review-nav {
+  padding-left: 50px;
+}
+
+/* footer */
+footer {
+  background-color: #2d2d30;
+  color: #f5f5f5;
+}
+
+footer a {
+  color: #f5f5f5;
+}
+
+.fa-star {
+  color: #ffc107;
+}
+
+/*# sourceMappingURL=reviews.css.map */

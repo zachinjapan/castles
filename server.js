@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 
 // Initialize the main project folder
-app.use(express.static("src"));
+app.use(express.static(__dirname + '/src'));
 
 // choose a port
 const PORT = process.env.PORT || 3000;

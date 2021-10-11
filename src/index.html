@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="./images/icon.webp">
+    <!-- google recapcha -->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <!-- bootstrap  -->
@@ -250,7 +252,7 @@
             <div class="col-md-8 booking">
 
                 <form action="https://getform.io/f/87419951-492d-403d-b5c7-d2b5a9942f47" method="POST">
-                    <div>
+                    <div class="contact-form-div">
                         <img src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/mail-letter-offer-256.png"
                             alt="icon">
                     </div>
@@ -259,6 +261,8 @@
                     <input type="text" name="message" placeholder="Tell us about your gig" required>
                     <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
                     <input type="submit" value="Send">
+                    <div class="g-recaptcha" data-sitekey="6LceV8QcAAAAAICbG54eKdWF-1L6dWuGKx1AoouV"
+                        data-size="compact"></div>
                 </form>
             </div>
         </div>

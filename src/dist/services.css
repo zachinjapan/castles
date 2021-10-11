@@ -111,7 +111,12 @@ form {
   z-index: 1;
 }
 
-form > div {
+.g-recaptcha {
+  display: flex;
+  justify-content: center;
+}
+
+form .contact-form-div {
   position: absolute;
   top: 0;
   left: 50%;
@@ -123,7 +128,7 @@ form > div {
   text-align: center;
 }
 
-form > div > img {
+form .contact-form-div img {
   filter: invert(1);
   width: 100px;
 }

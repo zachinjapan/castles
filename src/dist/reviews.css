@@ -171,8 +171,12 @@ form > input[type=submit]:hover {
   margin: auto;
 }
 
-.carousel-caption h3 {
-  color: #fff !important;
+.carousel-caption {
+  color: white;
+  font-weight: bold;
+}
+.carousel-caption h2 {
+  font-style: unset;
 }
 
 @media (max-width: 600px) {

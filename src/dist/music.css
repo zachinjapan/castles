@@ -61,6 +61,10 @@ a:hover {
   color: #777;
 }
 
+#myNavbar {
+  max-height: 100%;
+}
+
 .navbar {
   font-family: Montserrat, sans-serif;
   margin-bottom: 0;

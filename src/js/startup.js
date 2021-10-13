@@ -26,3 +26,7 @@ $(document).ready(function () {
         } // End if
     });
 })
+
+function enableBtn() {
+    document.getElementById("button1").disabled = false;
+}

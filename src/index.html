@@ -251,9 +251,9 @@
                     <input type="text" name="email" placeholder="Return address (required)" required>
                     <input type="text" name="message" placeholder="Tell us about your gig" required>
                     <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
-                    <input type="submit" value="Send">
-                    <div class="g-recaptcha" data-sitekey="6LceV8QcAAAAAICbG54eKdWF-1L6dWuGKx1AoouV"
-                        data-size="compact"></div>
+                    <input disabled type="submit" value="Send" id="button1">
+                    <div class="g-recaptcha" data-callback="enableBtn"
+                        data-sitekey="6LceV8QcAAAAAICbG54eKdWF-1L6dWuGKx1AoouV" data-size="compact"></div>
                 </form>
             </div>
         </div>

@@ -1,69 +1,46 @@
 @import "styles.scss";
 
 body {
-    background: linear-gradient(0deg, rgb(155, 154, 154) 0%, rgb(255, 255, 255) 100%);
-    margin: 0;
-    font-family: 'Merriweather', serif;
-    color: black;
-    user-select: none;
+  background: linear-gradient(
+    0deg,
+    rgb(155, 154, 154) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  margin: 0;
+  font-family: "Merriweather", serif;
+  color: black;
+  user-select: none;
 }
 
 /* Typeography General*/
 h1 {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 3em;
-    margin: 2em 1rem;
-    text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 3em;
+  margin: 2em 1rem;
+  text-align: center;
 }
 
 .test {
-    width: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-.section {}
+.section {
+}
 
 .iframe {
-    width: 100%;
-    height: 900px;
+  width: 100%;
+  height: 900px;
 }
 
 .modal-body {
-    padding: 0%;
+  padding: 0%;
 }
 
 @media (max-width: 600px) {
-    .iframe {
-        height: 400px;
-        width: 100%;
-        font-size: 10px;
-    }
-}
-
-/* ---- Theme State Rules ---- */
-/* Section Active Styles */
-/* Note: your-active-class class is applied through javascript. You should update the class here and in the index.html to what you set in your javascript file.  */
-section.your-active-class {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
-}
-
-section.your-active-class .landing__container::before {
-    opacity: 1;
-    animation: rotate 4s linear 0s infinite forwards;
-}
-
-section.your-active-class .landing__container::after {
-    opacity: 1;
-    animation: rotate 5s linear 0s infinite forwards reverse;
-}
-
-/* Section Active Styles Keyframe Animations */
-@keyframes rotate {
-    from {
-        transform: rotate(0deg) translate(-1em) rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg) translate(-1em) rotate(-360deg);
-    }
+  .iframe {
+    height: 400px;
+    width: 100%;
+    font-size: 10px;
+  }
 }

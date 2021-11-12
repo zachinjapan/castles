@@ -1,31 +1,25 @@
 @import "styles.scss";
 
-3 3 body {
-
-    background-color: black;
-    color: white;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+body {
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
-
-
 
 .instagram-div {
-    justify-content: start;
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
+  justify-content: start;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-
 @media (max-width: 600px) {
-    .instagram-media {
-        width: 200px;
-    }
-
+  .instagram-media {
+    width: 200px;
+  }
 }

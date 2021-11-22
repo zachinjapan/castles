@@ -4,11 +4,11 @@ const express = require("express");
 const app = express();
 
 // Initialize the main project folder
-app.use(express.static(__dirname + '/src'));
+app.use(express.static(__dirname + "/src"));
 
 // choose a port
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3500;
 // use express to listen to that port and run a console log if successful
 app.listen(PORT, function () {
-    console.log("Server is a runnin on port " + PORT);
-})
+  console.log("Server is a runnin on port " + PORT);
+});

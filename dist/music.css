@@ -1,6 +1,10 @@
 @import url(contact_form.css);
 @import url(reviews.css);
 /* elements */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font: 400 15px/1.8 Lato, sans-serif;
   background-color: #faf9f7;

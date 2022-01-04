@@ -3,6 +3,10 @@
 
 /* elements */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font: 400 15px/1.8 Lato, sans-serif;
   background-color: rgb(250, 249, 247);
